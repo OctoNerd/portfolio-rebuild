@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive navigation</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">work</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">now</a></li>
+        </ul>
+        <div class="mobile-nav">
+            menu
+            <div class="menu-icon">
+                <div class="menu-icon-line"></div>
+                <div class="menu-icon-line-mid"></div>
+                <div class="menu-icon-line"></div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $('.mobile-nav').on('click', function() {
+            $('nav ul').toggleClass('showing');
+        });
+    </script>
+</body>
+</html>
