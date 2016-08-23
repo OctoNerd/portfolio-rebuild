@@ -1,3 +1,5 @@
+@import 'grid';
+
 $primary-color: black;
 $secondary-color: gray;
 $accent-color: #333333;
@@ -7,14 +9,11 @@ $mobile-width: 580px;
 
 $font-stack: sans-serif;
 
-
 body {
 	margin: 0;
 	padding: 0;
 	font-family: $font-stack;
 }
-
-
 
 a {
 	text-decoration: none;
